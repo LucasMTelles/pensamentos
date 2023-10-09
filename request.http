@@ -1,0 +1,12 @@
+POST http://localhost:3333/users
+content-type: application/json
+{
+    "name": "Lucas de Moraes",
+    "email": "lucas.telles@teste.com",
+    "password": "12345678",
+    "confirm_password": "12345678",
+}
+
+###
+
+POST http://localhost:3333/users
